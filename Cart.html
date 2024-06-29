@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Smart Farming and Food Distribution System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('refreshment-from-as-sprinklers-arc-water-geometric-greenery-fields.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+        }
+        .cart-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #28a745;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .checkout-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .checkout-btn:hover {
+            background-color: #218838;
+        }
+        .empty-cart {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example rows (replace with dynamic content from backend) -->
+                <tr>
+                    <td>Irrigation machines</td>
+                    <td>$20.00</td>
+                    <td>2</td>
+                    <td>$40.00</td>
+                </tr>
+                <tr>
+                    <td>Fertilizers</td>
+                    <td>$30.00</td>
+                    <td>1</td>
+                    <td>$30.00</td>
+                </tr>
+                <!-- Additional rows as needed -->
+            </tbody>
+        </table>
+        <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+        <!-- Show message if cart is empty -->
+        <div class="empty-cart">
+            <p>Your shopping cart is empty.</p>
+            <p><a href="index.html">Continue shopping</a></p>
+        </div>
+    </div>
+</body>
+</html>

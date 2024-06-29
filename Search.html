@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <a href="homepage.html">Home</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Smart Farming and Food Distribution System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .search-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #007bff;
+        }
+        .search-form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .search-results {
+            margin-top: 20px;
+        }
+        .result-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+        }
+        .result-item h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <h2>Search</h2>
+        <form action="#" method="get" class="search-form">
+            <input type="text" id="search-input" name="search" placeholder="Enter your search term..." required>
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+        <div class="search-results">
+            <!-- Example search results (replace with dynamic content from backend) -->
+            <div class="result-item">
+                <h3><a href="#">Result Title 1</a></h3>
+                <p>Description or snippet of the result...</p>
+            </div>
+            <div class="result-item">
+                <h3><a href="#">Result Title 2</a></h3>
+                <p>Description or snippet of the result...</p>
+            </div>
+            <!-- Additional results as needed -->
+        </div>
+    </div>
+</body>
+</html>
