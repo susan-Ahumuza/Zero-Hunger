@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Farming and Food Distribution System - Home</title>
+    <style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,28 +59,57 @@
             position: fixed;
             width: 100%;
             bottom: 0;
+            margin-top: 20px;
+            height: 8vh;
+            display: flex;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="assets/Hunger logo.jpg" alt="Hunger Logo">
-        <h1>Smart Farming and Food Distribution System</h1>
-        <h2>HOME PAGE</h2>
+<div  style="display: flex; align-content: space-between; ">
+
+    <div style="margin-right: auto; padding-top: 15px;">
+        <!-- <img src="assets/Hunger logo.jpg" alt="Hunger Logo" height="15vh" width="20px"> -->
+         <h1 style="text-decoration: chocolate; color: black;"><b>Zero Hunger</b></h1>
+    </div>
+
+    <div style="align-self: center;">
+        <h1 style="align-items: center; font-size: large;">Smart Farming and Food Distribution System</h1>
+    </div>
+       
+    <div style="justify-content: flex-end; margin-left: auto;  padding-top: 25px;">
+
+        <a href="Login_page.html" style="text-decoration: none;">
+        <button style="background-color: transparent; border: none;">
+            <ion-icon name="log-in" style="size: 50px;" size="large"  color="white"></ion-icon>
+        </button>
+        </a>
+
+       
+
+        <a href="Cart.html" style="text-decoration: none;">
+        <button style="background-color: transparent; border: none;">
+            <ion-icon name="cart" style="size: 50px;" size="large"  color="white"></ion-icon>
+        </button>
+        </a>
+
+        <a href="FAQ.html" style="text-decoration: none;">
+            <button style="background-color: transparent; border: none;">
+                <ion-icon name="help" style="size: 50px;" size="large"  color="white"></ion-icon>
+            </button>
+        </a>
+
+    </div>
+
+</div>
     </header>
     <nav>
-        <a href="About_us.html">About Us</a>
-        <a href="Blog.html">Blog</a>
-        <a href="Cart.html">Cart</a>
-        <a href="checkout.html">Checkout</a>
-        <a href="Contact_us.html">Contact Us</a>
-       
-      
-        <a href="Privacy_policy.html">Privacy Policy</a>
         <a href="Product_page.html">Product Page</a>
-        <a href="Registration.html">Registration</a>
         <a href="Search.html">Search</a>
-        <a href="Terms&conditions.html">Terms & Conditions</a>
+        <a href="About_us.html">About Us</a>
+        <a href="Contact_us.html">Contact Us</a>
+        <a href="Blog.html">Blog</a>
 
     </nav>
     <div class="content">
@@ -92,9 +125,19 @@
         </ul>
         <p>Explore our services and learn how we can help you achieve smarter farming and efficient food distribution.</p>
     </div>
-    <footer>
+    <br><br>
+    <section>
+        <br><br><br><br><br>
+    </section>
+    <footer >
         <p>&copy; 2024 Smart Farming and Food Distribution System. All rights reserved.</p>
-        <a href="FAQ.html">FAQ</a>
+        <section>
+        <nav>
+            <a href="FAQ.html">FAQ</a>
+            <a href="Privacy_policy.html">Privacy Policy</a>
+            <a href="Terms&conditions.html">Terms & Conditions</a>
+        </nav>
+        </section>
     </footer>
 </body>
 </html>
